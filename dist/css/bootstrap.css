@@ -5228,8 +5228,8 @@ a.list-group-item.active > .badge,
   line-height: 2.1428571435;
   color: inherit;
 }
-.jumbotron .main {
-  background-image:url('images/main.jpg');
+.jumbotron.jumbomain {
+  background-image: url("/images/main.jpg");
 }
 
 .jumbotron h1,
