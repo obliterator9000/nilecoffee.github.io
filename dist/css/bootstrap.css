@@ -5233,6 +5233,12 @@ a.list-group-item.active > .badge,
   background-repeat:no-repeat;
   background-position:center; 
 }
+.jumbotron.jumbomd {
+  background-image: url("/images/jumbomd.jpg");
+  background-repeat:no-repeat;
+  background-position:center;
+}
+
 
 .jumbotron h1,
 .jumbotron .h1 {
