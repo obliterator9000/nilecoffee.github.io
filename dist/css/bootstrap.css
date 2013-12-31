@@ -5229,7 +5229,7 @@ a.list-group-item.active > .badge,
   color: inherit;
 }
 .jumbotron.jumbomain {
-  background-image: url("/images/jumbomain.jpg");
+  background-image: url("images/jumbomain.jpg");
   background-repeat:no-repeat;
   background-position:center; 
 }
