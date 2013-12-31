@@ -5231,7 +5231,7 @@ a.list-group-item.active > .badge,
 .jumbotron.jumbomain {
   background-image: url("/images/jumbomain.jpg");
   background-repeat:no-repeat;
-  background-position:center; 
+  background-position:right; 
 }
 .jumbotron.jumbomd {
   background-image: url("/images/jumbomd.jpg");

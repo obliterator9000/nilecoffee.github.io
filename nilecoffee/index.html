@@ -1,4 +1,5 @@
-    <!DOCTYPE html>
+
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -11,7 +12,9 @@
     <title>Lo Fi Coffee</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="dist/css/bootstrap.css" rel="stylesheet">
+    <link href="bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
 
     <!-- Just for debugging purposes. Don't actually copy this line! -->
     <!--[if lt IE 9]><script src="../../docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -21,17 +24,16 @@
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
-
-    <!-- Custom styles for this template -->
   </head>
-<!-- NAVBAR
-================================================== -->
+
   <body>
+
+  <body>
+<!-- Begin Navigation -->
 	<div class="container">
 	  <div class="navbar-wrapper">
       <div class="container">
-
-        <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="navbar navbar-inverse navbar-static-top" role="navigation">
           <div class="container">
             <div class="navbar-header">
               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -45,7 +47,7 @@
             <div class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
                 <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="mailto:loficoffee@gmail.com?Subject=Website%20Email" target="_top">Contact</a></li>
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">Locations<b class="caret"></b></a>
                   <ul class="dropdown-menu">
@@ -61,50 +63,57 @@
             </div>
           </div>
         </div>
-
       </div>
     </div>
+<!--End Navigation-->
+      
+   <div class="container">  
+    <div class="jumbotron jumbomain">
+        <p><br/><br/><br/>Welcome to Lo Fi Coffee.<br/>We are a coffee business based out of Mesa, Arizona.</p>
+        <p><a class="btn btn-default" href="#about" role="button">Learn About Us &raquo;</a></p>
+    </div>
+   <div>
 
-
-    <!-- Wrap the rest of the page in another container to center all the content. -->
-
-        <!-- Main jumbotron for a primary marketing message or call to action -->
-	<div class="jumbotron">
-		<div class="container">
-			 <h1>Lo Fi Coffee</h1>
-			 <p>Welcome to Lo Fi Coffee
-			 </p>
-			<p><a class="btn btn-primary btn-lg" href="#about" role="button">Learn more &raquo;</a></p>
-		</div>
- 	</div>
-    <div class="container marketing">
-
-      <!-- Three columns of text below the carousel -->
-      <div class="row">
-        <div class="col-lg-4">
-          <h2>Find out more!</h2>
-	  <p>
-	  <a href="http://eepurl.com/iNwC9">Sign Up For The Newsletter!</a><br/>
-	  <a href="http://www.twitter.com/loficoffee">Follow us on Twitter!<br/><a href="mailto:loficoffee@gmail.com?subject=Website%20Feedback-%Main">Email us</a></p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-                    <h2>Tweets</h2>
-	  <p><a class="twitter-timeline" href="https://twitter.com/loficoffee" data-widget-id="413020512961314816">Tweets by @loficoffee</a>
-	  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-	  </p>
+         <!-- Example row of columns -->
+          <div class="row">
+            <div class="col-6 col-sm-6 col-lg-4">
+              <h2>Lo Fi Coffee - Mesa</h2>
+              <p><img src="images/lfaddress.png" /><br/>Lo Fi Coffee Mesa is the original location, and located in the heart of Downtown Mesa.</p>
+              <p><a class="btn btn-default" href="mesa.html" role="button">Visit Mesa &raquo;</a></p>
+            </div><!--/span-->
+            <div class="col-6 col-sm-6 col-lg-4">
+              <h2>Lo Fi Coffee - Mud Dauber</h2>
+              <p><img src="images/mdaddress.png" /><br/>Lo Fi Coffee Mud Dauber is located on 16th Street and serves the Coronado District of Downtown Phoenix.  We opened in December of 2012.  We are located inside of a multiplex of businesses called The Hive. </p>
+              <p><a class="btn btn-default" href="muddauber.html" role="button">View details &raquo;</a></p>
+            </div><!--/span-->
+            <div class="col-6 col-sm-6 col-lg-4">
+              <h2>Lo Fi Coffee - Roastery</h2>
+              <p><img src="images/xanaddress.png" /><br/>We import all of our coffee ourselves, and also make sure that our quality control is always up to date.  Formerly known as Xanadu Coffee, we roast for all of our shops and others!  Feel free to browse the online store if you would like to pick up some coffee from us!</p>
+              <p><a class="btn btn-default" href="roastery.html" role="button">View details &raquo;</a></p>
+            </div><!--/span-->
+            <div class="col-6 col-sm-6 col-lg-4">
+            <h2>Tweets</h2>
+              <p><a class="twitter-timeline" href="https://twitter.com/loficoffee" data-widget-id="413020512961314816">Tweets by @loficoffee</a>
+                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+              </p>
           <p><a class="btn btn-default" href="http://www.twitter.com/loficoffee" role="button">Visit Twitter &raquo;</a></p>
+            </div><!--/span-->
+            <div class="col-6 col-sm-6 col-lg-4">
+              <h2>Events!</h2>
+              <p>One of the fundamentals that Lo Fi Coffee was built upon was servicing the venues in which we place ourselves. Lo Fi Coffee currently serves The Hive in Phoenix, and <a href="http://www.niletheater.com">The Historic Nile Theater</a> in Mesa. We are always hosting, or taking part in events at our shops. </p>
+              <p><a class="btn btn-default" href="https://www.facebook.com/loficoffee/events" role="button">View details &raquo;</a></p>
+            </div><!--/span-->
+            <div class="col-6 col-sm-6 col-lg-4">
+              <h2>Contact Us!</h2>
+              <p>Feel free to contact or keep up to date with us at our <a href="http://www.facebook.com/loficoffee">Facebook</a>, or email us <a href="mailto:loficoffee@gmail.com?Subject=Website%20Email" target="_top">email us</a>.</p>
+              <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+            </div><!--/span-->
+          </div><!--/row-->
+        </div><!--/span-->
 
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <h2>See our shops!</h2>
-          <p>We are all over the valley, we make up a network of shops in independent locations!</p>
-          <p><a class="btn btn-default" href="#locations" role="button">Our Locations &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-      </div><!-- /.row -->
+<!-- end Columns -->
 
-
-      <!-- START THE FEATURETTES -->
+<!-- START THE FEATURETTES -->
 
       <hr class="featurette-divider">
 
@@ -159,15 +168,15 @@
       <hr class="featurette-divider">
 
       <!-- /END THE FEATURETTES -->
-      <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-          <script src="dist/js/bootstrap.min.js"></script>
 
-      <!-- FOOTER -->
       <footer>
-        <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2014 Nile Coffee, LLC. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+        <p>&copy; Nile Coffee, LLC 2014</p>
       </footer>
-	</div>
-    </div><!-- /.container -->
-    </div>
-    </html>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+  </body>
+</html>
