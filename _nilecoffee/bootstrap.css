@@ -5229,16 +5229,30 @@ a.list-group-item.active > .badge,
   color: inherit;
 }
 .jumbotron.jumbomain {
-  background-image: url("/images/jumbomain.jpg");
+  background-image: url("/images/jumbomain.png");
   background-repeat:no-repeat;
   background-position:right; 
 }
-.jumbotron.jumbomd {
-  background-image: url("/images/jumbomd.jpg");
+.jumbotron.jumbo {
+  background-image: url("/images/jumbomd.png");
   background-repeat:no-repeat;
-  background-position:center;
+  background-position:right;
 }
-
+.jumbotron.jumbots {
+  background-image: url("/images/jumbots.png");
+  background-repeat:no-repeat;
+  background-position:right;
+}
+.jumbotron.jumbomesa {
+  background-image: url("/images/jumbomesa.png");
+  background-repeat:no-repeat;
+  background-position:right;
+}
+.jumbotron.jumboxan {
+  background-image: url("/images/jumboxan.png");
+  background-repeat:no-repeat;
+  background-position:right;
+}
 
 .jumbotron h1,
 .jumbotron .h1 {

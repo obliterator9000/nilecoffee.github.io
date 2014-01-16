@@ -5236,22 +5236,22 @@ a.list-group-item.active > .badge,
 .jumbotron.jumbo {
   background-image: url("/images/jumbomd.png");
   background-repeat:no-repeat;
-  background-position:right;
+  background-position:center;
 }
 .jumbotron.jumbots {
   background-image: url("/images/jumbots.png");
   background-repeat:no-repeat;
-  background-position:right;
+  background-position:center;
 }
 .jumbotron.jumbomesa {
   background-image: url("/images/jumbomesa.png");
   background-repeat:no-repeat;
-  background-position:right;
+  background-position:center;
 }
 .jumbotron.jumboxan {
   background-image: url("/images/jumboxan.png");
   background-repeat:no-repeat;
-  background-position:right;
+  background-position:center;
 }
 
 .jumbotron h1,
