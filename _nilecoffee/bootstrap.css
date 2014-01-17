@@ -5233,7 +5233,7 @@ a.list-group-item.active > .badge,
   background-repeat:no-repeat;
   background-position:right; 
 }
-.jumbotron.jumbo {
+.jumbotron.jumbomd {
   background-image: url("/images/jumbomd.png");
   background-repeat:no-repeat;
   background-position:right;
