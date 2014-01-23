@@ -5226,7 +5226,17 @@ a.list-group-item.active > .badge,
   font-size: 21px;
   font-weight: 200;
   line-height: 2.1428571435;
+  position: relative;
   color: inherit;
+  height: 100%;
+  width: 100%;
+  background-size: 60%;
+  -webkit-transition: all .8s ease;
+  -moz-transition: all .8s ease;
+  -ms-transition: all .8s ease;
+  -o-transition: all .8s ease;
+  transition: all .8s ease;
+  
 }
 .jumbotron.jumbomain {
   background-image: url("/images/jumbomain.png");
